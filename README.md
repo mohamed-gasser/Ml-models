@@ -66,7 +66,61 @@
 </tbody>
 </table>
 
-Contact
+
+## third-model : 
+#### description
+convolution neural network (CNN) plays an important role. However, the classical CNN has the problem of consuming too much computing resources. To solve this problem, first, this paper proposed a dilated CNN model which is built through replacing the convolution kernels of traditional CNN by the dilated convolution kernels, and then, the dilated CNN model is tested on the Mnist handwritten digital recognition data set. Second, to solve the detail loss problem in the dilated CNN model, the hybrid dilated CNN (HDC) is built by stacking dilated convolution kernels with different dilation rates.
+
+With the help of the model in the paper https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8756165
+, we improved the model and implemented on traffic sign dataset.
+
+  #### dataset details : 
+  using the same dataset in first model 
+
+  
+#### Implementation details:
+
+Ratio used for training : 4062
+Ratio used for Validation : 1270
+Ratio used for testing : 1016
+
+block diagram :         
+1- CNN block diagram                           2- Dilated CNN block diagram                        3-  HDC block diagram
+
+![image](https://github.com/mohamed-gasser/Ml-models/assets/102036714/dd8d13ba-0a6f-4a3c-9232-c74731ddbd56)       ![image](https://github.com/mohamed-gasser/Ml-models/assets/102036714/0d158ca6-d18a-4f2f-8cbe-86620c950873)     ![image](https://github.com/mohamed-gasser/Ml-models/assets/102036714/cfa9b7d2-0f2b-41df-b885-c1d676a7e874)
+                                                           
+
+##### hyperparameters used in your model : 
+1- Adam (Learning rate =0.001
+
+2- Droupout (0.25)
+
+3- epochs :35
+
+4- batchSize=32
+
+5- Adding additional hidden layer
+
+6- activation =relu
+
+7- use validation .20 of dataset
+
+8- increasing # of units in hidden layer to 128
+
+#### accuracy curve
+
+   <img src="https://github.com/mohamed-gasser/Ml-models/assets/102036714/b076f195-9494-456f-ba8c-c356b7af7962)" width="40%" height="20%">
+
+#### loss curve
+   
+   <img src="https://github.com/mohamed-gasser/Ml-models/assets/102036714/6220717e-0d09-4515-b331-bb99d7b005dc" width="40%" height="20%">
+
+# Results
+   
+   <img src="https://github.com/mohamed-gasser/Ml-models/assets/102036714/4f82d116-b5c7-4960-a9ae-4112ea8ded48" width="80%" height="30%">
+
+
+#### Contact
 You can communicate by following e-mails If you have more questions about the project or to get the all src code :
 
 
