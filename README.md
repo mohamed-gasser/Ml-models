@@ -120,6 +120,41 @@ block diagram :
    <img src="https://github.com/mohamed-gasser/Ml-models/assets/102036714/4f82d116-b5c7-4960-a9ae-4112ea8ded48" width="80%" height="30%">
 
 
+## fourth-model : 
+  We trained the artificial_neural_network_images model and the support vector machine on traffic sign classification dataset
+  
+  #### dataset details : 
+IMDB movie review sentiment classification using CNN and keras/colab
+tf.keras.datasets.imdb.load_data
+
+#### description
+Based on the feedback, classify the films on the basis that it is good or not good, using the RNN model for training on dataset iMDB movie review have positive and negative feedback.
+
+   # Results
+<table>
+<thead>
+  <tr>
+    <th>Operation Mode</th>
+    <th colspan="1">accuracy</th>
+    <th colspan="1">loss</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  </tr>
+  <tr> 
+    <td>Rnn</td>
+    <td>87.34%</td>
+    <td>37.41%</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+</tbody>
+</table>
+
+<br/>
+
 #### Contact
 You can communicate by following e-mails If you have more questions about the project or to get the all src code :
 
