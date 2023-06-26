@@ -36,7 +36,7 @@
 
 <br/>
 
-### second-model : 
+## second-model : 
   We trained the artificial_neural_network_images model and the support vector machine on Students Performance in Exams dataset
 
   You can download and get more details for dataset through the link :
