@@ -121,7 +121,7 @@ block diagram :
 
 
 ## fourth-model : 
-  We trained the artificial_neural_network_images model and the support vector machine on traffic sign classification dataset
+  We trained the artificial_neural_network_images model and the support vector machine on dataset.
   
   #### dataset details : 
 IMDB movie review sentiment classification using CNN and keras/colab
